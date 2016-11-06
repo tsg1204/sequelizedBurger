@@ -1,7 +1,7 @@
 USE burger_db;
 
-INSERT INTO burgers (burger_name, date) VALUES ('BigMac', now());
-INSERT INTO burgers (burger_name, date) VALUES ('Italian Yummy', now());
-INSERT INTO burgers (burger_name, date) VALUES ('Double Burger', now());
+INSERT INTO burgers (burger_name, devoured) VALUES ('BigMac', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Italian Yummy', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Double Burger', false);
 
 select * from burgers;
